@@ -3,7 +3,7 @@
 
 :root {
     --laranja-claro: #FF862A;
-    --alto-contraste-fundo: #000;
+    --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ffd700;
 }
@@ -142,4 +142,25 @@ h2 {
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
     background-color: #F1EDEF;
+}
+.menu-acessibilidade{
+    position: fixed;
+    top:2rem;
+    right: 20px;
+    z-index:1000;
+}
+.rotacao-botao{
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+.opcoes-acessibilidade{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+}
+.opcoes-acessibilidade button{
+    margin-top: 5px;
+}
+.apresenta-lista{
+    display: none;
 }
